@@ -1,0 +1,25 @@
+VER 3 0100000000000001 "01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence reset=6 Horion de flammes,Horion de givre
+END
+VER 3 0100000000000004 "02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence reset=6 Explosion de lave
+END
+VER 3 0100000000000003 "03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence  reset=combat Éclair,Chaîne d’éclairs
+END
+VER 3 0100000000000002 "04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence  reset=combat Horion de terre
+END
+VER 3 0100000000000005 "05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence  reset=combat  Chaîne d’éclairs
+END

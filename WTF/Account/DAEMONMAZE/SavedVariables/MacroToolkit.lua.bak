@@ -1,0 +1,1813 @@
+
+MacroToolkitDB = {
+	["char"] = {
+		["Mathô - Kael'thas"] = {
+			["macros"] = {
+				[131] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[135] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[122] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[124] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[126] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[128] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[132] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[136] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[129] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[133] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[137] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[121] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[123] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[125] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[127] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[130] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[134] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+				[138] = {
+					["icon"] = "237182",
+					["name"] = "RareLove",
+					["body"] = "/click RareLoveButton\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Smithet - Kael'thas"] = {
+			["macros"] = {
+				[122] = {
+					["name"] = "A.03",
+					["icon"] = "645217",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/petattack\n/lancersuite Corbeaux hargneux,Tir du cobra,Courroux bestial,Tir du cobra\n",
+				},
+				[124] = {
+					["name"] = "A.04",
+					["icon"] = "236176",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/petattack\n/lancersuite  Tir de la chimère,Tir du cobra,Bête féroce,Tir du cobra\n",
+				},
+				[121] = {
+					["name"] = "A.02",
+					["icon"] = "132176",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/petattack\n/lancersuite Ordre de tuer,Tir du cobra,Tir acéré,Tir du cobra\n",
+				},
+				[123] = {
+					["name"] = "A.04",
+					["icon"] = "576309",
+					["body"] = "#showtooltip\n/lancersuite [@cursor]reset=combat Piège de goudron,Piège givrant\n",
+				},
+				[125] = {
+					["name"] = "A.11",
+					["icon"] = "132180",
+					["body"] = "#showtooltip\n/use [@focus,help,nodead][@pet,nodead]Détournement\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Mathö - Kael'thas"] = {
+			["macros"] = {
+				[131] = {
+					["name"] = "A.11",
+					["icon"] = "136085",
+					["body"] = "#showtooltip\n/use [form:1]Grondement;[noform:1,@mouseover]Rétablissement\n",
+				},
+				[135] = {
+					["name"] = "B.07",
+					["icon"] = "132132",
+					["body"] = "/lancer Ressusciter\n",
+				},
+				[122] = {
+					["name"] = "A.02",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce\n",
+				},
+				[124] = {
+					["name"] = "A.04",
+					["icon"] = "136096",
+					["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+				},
+				[126] = {
+					["name"] = "A.06",
+					["icon"] = "538771",
+					["body"] = "#showtooltip\n/use Charge sauvage\n",
+				},
+				[128] = {
+					["name"] = "A.08",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1]Instincts de survie;[noform:1]Forme d'ours\n",
+				},
+				[132] = {
+					["name"] = "A.12",
+					["icon"] = "132144",
+					["body"] = "#showtooltip\n/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin\n",
+				},
+				[136] = {
+					["name"] = "B.08",
+					["icon"] = "136080",
+					["body"] = "/lancer Renaissance\n",
+				},
+				[129] = {
+					["name"] = "A.09",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1]Ferpoil;[noform:1]Forme d'ours\n",
+				},
+				[133] = {
+					["name"] = "B.05",
+					["icon"] = "132121",
+					["body"] = "/lancer Rugissement incapacitant\n",
+				},
+				[137] = {
+					["name"] = "B.11",
+					["icon"] = "132120",
+					["body"] = "#showtooltip\n/lancer Célérité\n",
+				},
+				[121] = {
+					["name"] = "A.01",
+					["icon"] = "132276",
+					["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce\n",
+				},
+				[123] = {
+					["name"] = "A.03",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1,nomod]Mutiler;[form:1,mod]Ferpoil;[noform:1]Forme d'ours\n/click ActionBarButton1\n",
+				},
+				[125] = {
+					["name"] = "A.05",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1]Balayage;[noform:1]Forme d'ours\n",
+				},
+				[127] = {
+					["name"] = "A.07",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1]Coup de crâne;[noform:1]Forme d'ours\n",
+				},
+				[130] = {
+					["name"] = "A.10",
+					["icon"] = "132276",
+					["body"] = "#showtooltip\n/use [form:1]Régénération frénétique;[noform:1]Forme d'ours\n",
+				},
+				[134] = {
+					["name"] = "B.06",
+					["icon"] = "464343",
+					["body"] = "/lancer Ruée rugissante\n",
+				},
+				[138] = {
+					["name"] = "B.12",
+					["icon"] = "514640",
+					["body"] = "#showtooltip \n/use Rôder\n",
+				},
+			},
+			["backups"] = {
+				{
+					["m"] = {
+						{
+							["name"] = "A.01",
+							["icon"] = 132276,
+							["index"] = 121,
+							["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce\n",
+						}, -- [1]
+						{
+							["name"] = "A.02",
+							["icon"] = 132276,
+							["index"] = 122,
+							["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce\n",
+						}, -- [2]
+						{
+							["name"] = "A.03",
+							["icon"] = 132276,
+							["index"] = 123,
+							["body"] = "#showtooltip\n/use [form:1,nomod] Mutiler ; [form:1,mod] Ferpoil ; [noform:1] Forme d'ours\n/click ActionBarButton1\n",
+						}, -- [3]
+						{
+							["name"] = "A.04",
+							["icon"] = 136096,
+							["index"] = 124,
+							["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+						}, -- [4]
+						{
+							["name"] = "A.05",
+							["icon"] = 132276,
+							["index"] = 125,
+							["body"] = "#showtooltip\n/use [form:1] Balayage ; [noform:1] Forme d'ours\n",
+						}, -- [5]
+						{
+							["name"] = "A.06",
+							["icon"] = 538771,
+							["index"] = 126,
+							["body"] = "#showtooltip\n/cast Charge sauvage\n",
+						}, -- [6]
+						{
+							["name"] = "A.07",
+							["icon"] = 132276,
+							["index"] = 127,
+							["body"] = "#showtooltip\n/use [form:1] Coup de crâne; [noform:1] Forme d'ours\n",
+						}, -- [7]
+						{
+							["name"] = "A.08",
+							["icon"] = 132276,
+							["index"] = 128,
+							["body"] = "#showtooltip\n/use [form:1] Instincts de survie ; [noform:1] Forme d'ours\n",
+						}, -- [8]
+						{
+							["name"] = "A.09",
+							["icon"] = 132276,
+							["index"] = 129,
+							["body"] = "#showtooltip\n/use [form:1] Ferpoil ; [noform:1] Forme d'ours\n",
+						}, -- [9]
+						{
+							["name"] = "A.10",
+							["icon"] = 132276,
+							["index"] = 130,
+							["body"] = "#showtooltip\n/use [form:1] Régénération frénétique ; [noform:1] Forme d'ours\n",
+						}, -- [10]
+						{
+							["name"] = "A.11",
+							["icon"] = 136085,
+							["index"] = 131,
+							["body"] = "#showtooltip\n/use [form:1] Grondement ; [noform:1,@mouseover] Rétablissement \n",
+						}, -- [11]
+					},
+					["d"] = "21/07/18 16:01:25",
+					["n"] = "",
+				}, -- [1]
+				{
+					["m"] = {
+						{
+							["name"] = "A.01",
+							["icon"] = 132276,
+							["index"] = 121,
+							["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+						}, -- [1]
+						{
+							["name"] = "A.02",
+							["icon"] = 132276,
+							["index"] = 122,
+							["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+						}, -- [2]
+						{
+							["name"] = "A.03",
+							["icon"] = 132276,
+							["index"] = 123,
+							["body"] = "#showtooltip\n/use [form:1,nomod]Mutiler;[form:1,mod]Ferpoil;[noform:1]Forme d'ours\n/click ActionBarButton1",
+						}, -- [3]
+						{
+							["name"] = "A.04",
+							["icon"] = 136096,
+							["index"] = 124,
+							["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+						}, -- [4]
+						{
+							["name"] = "A.05",
+							["icon"] = 132276,
+							["index"] = 125,
+							["body"] = "#showtooltip\n/use [form:1]Balayage;[noform:1]Forme d'ours",
+						}, -- [5]
+						{
+							["name"] = "A.06",
+							["icon"] = 538771,
+							["index"] = 126,
+							["body"] = "#showtooltip\n/use Charge sauvage",
+						}, -- [6]
+						{
+							["name"] = "A.07",
+							["icon"] = 132276,
+							["index"] = 127,
+							["body"] = "#showtooltip\n/use [form:1]Coup de crâne;[noform:1]Forme d'ours",
+						}, -- [7]
+						{
+							["name"] = "A.08",
+							["icon"] = 132276,
+							["index"] = 128,
+							["body"] = "#showtooltip\n/use [form:1]Instincts de survie;[noform:1]Forme d'ours",
+						}, -- [8]
+						{
+							["name"] = "A.09",
+							["icon"] = 132276,
+							["index"] = 129,
+							["body"] = "#showtooltip\n/use [form:1]Ferpoil;[noform:1]Forme d'ours",
+						}, -- [9]
+						{
+							["name"] = "A.10",
+							["icon"] = 132276,
+							["index"] = 130,
+							["body"] = "#showtooltip\n/use [form:1]Régénération frénétique;[noform:1]Forme d'ours",
+						}, -- [10]
+						{
+							["name"] = "A.11",
+							["icon"] = 136085,
+							["index"] = 131,
+							["body"] = "#showtooltip\n/use [form:1]Grondement;[noform:1,@mouseover]Rétablissement",
+						}, -- [11]
+						{
+							["name"] = "A.12",
+							["icon"] = 132144,
+							["index"] = 132,
+							["body"] = "#showtooltip\n/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin",
+						}, -- [12]
+						{
+							["name"] = "B.05",
+							["icon"] = 132121,
+							["index"] = 133,
+							["body"] = "/lancer Rugissement incapacitant\n",
+						}, -- [13]
+						{
+							["name"] = "B.06",
+							["icon"] = 464343,
+							["index"] = 134,
+							["body"] = "/lancer Ruée rugissante\n",
+						}, -- [14]
+						{
+							["name"] = "B.07",
+							["icon"] = 132132,
+							["index"] = 135,
+							["body"] = "/lancer Ressusciter\n",
+						}, -- [15]
+						{
+							["name"] = "B.08",
+							["icon"] = 136080,
+							["index"] = 136,
+							["body"] = "/lancer Renaissance\n",
+						}, -- [16]
+						{
+							["name"] = "B.11",
+							["icon"] = 132120,
+							["index"] = 137,
+							["body"] = "#showtooltip\n/lancer Célérité\n",
+						}, -- [17]
+						{
+							["name"] = "B.12",
+							["icon"] = 514640,
+							["index"] = 138,
+							["body"] = "#showtooltip \n/use Rôder\n",
+						}, -- [18]
+					},
+					["d"] = "21/07/18 16:11:41",
+					["n"] = "",
+				}, -- [2]
+				{
+					["m"] = {
+						{
+							["name"] = "A.01",
+							["icon"] = 136096,
+							["index"] = 121,
+							["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+						}, -- [1]
+						{
+							["name"] = "A.02",
+							["icon"] = 451161,
+							["index"] = 122,
+							["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce\n",
+						}, -- [2]
+						{
+							["name"] = "A.03",
+							["icon"] = 132136,
+							["index"] = 123,
+							["body"] = "#showtooltip\n/use [form:1,nomod]Mutiler;[form:1,mod]Ferpoil;[noform:1]Forme d'ours\n/click ActionBarButton1\n",
+						}, -- [3]
+						{
+							["name"] = "A.04",
+							["icon"] = 136096,
+							["index"] = 124,
+							["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+						}, -- [4]
+						{
+							["name"] = "A.05",
+							["icon"] = 134296,
+							["index"] = 125,
+							["body"] = "#showtooltip\n/use [form:1]Balayage;[noform:1]Forme d'ours\n",
+						}, -- [5]
+						{
+							["name"] = "A.06",
+							["icon"] = 538771,
+							["index"] = 126,
+							["body"] = "#showtooltip\n/use Charge sauvage\n",
+						}, -- [6]
+						{
+							["name"] = "A.07",
+							["icon"] = 236946,
+							["index"] = 127,
+							["body"] = "#showtooltip\n/use [form:1]Coup de crâne;[noform:1]Forme d'ours\n",
+						}, -- [7]
+						{
+							["name"] = "A.08",
+							["icon"] = 236169,
+							["index"] = 128,
+							["body"] = "#showtooltip\n/use [form:1]Instincts de survie;[noform:1]Forme d'ours\n",
+						}, -- [8]
+						{
+							["name"] = "A.09",
+							["icon"] = 1378702,
+							["index"] = 129,
+							["body"] = "#showtooltip\n/use [form:1]Ferpoil;[noform:1]Forme d'ours\n",
+						}, -- [9]
+						{
+							["name"] = "A.10",
+							["icon"] = 132091,
+							["index"] = 130,
+							["body"] = "#showtooltip\n/use [form:1]Régénération frénétique;[noform:1]Forme d'ours\n",
+						}, -- [10]
+						{
+							["name"] = "A.11",
+							["icon"] = 136085,
+							["index"] = 131,
+							["body"] = "#showtooltip\n/use [form:1]Grondement;[noform:1,@mouseover]Rétablissement\n",
+						}, -- [11]
+						{
+							["name"] = "A.12",
+							["icon"] = 132144,
+							["index"] = 132,
+							["body"] = "#showtooltip\n/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin\n",
+						}, -- [12]
+						{
+							["name"] = "B.05",
+							["icon"] = 132121,
+							["index"] = 133,
+							["body"] = "/lancer Rugissement incapacitant\n",
+						}, -- [13]
+						{
+							["name"] = "B.06",
+							["icon"] = 464343,
+							["index"] = 134,
+							["body"] = "/lancer Ruée rugissante\n",
+						}, -- [14]
+						{
+							["name"] = "B.07",
+							["icon"] = 132132,
+							["index"] = 135,
+							["body"] = "/lancer Ressusciter\n",
+						}, -- [15]
+						{
+							["name"] = "B.08",
+							["icon"] = 136080,
+							["index"] = 136,
+							["body"] = "/lancer Renaissance\n",
+						}, -- [16]
+						{
+							["name"] = "B.11",
+							["icon"] = 132120,
+							["index"] = 137,
+							["body"] = "#showtooltip\n/lancer Célérité\n",
+						}, -- [17]
+						{
+							["name"] = "B.12",
+							["icon"] = 514640,
+							["index"] = 138,
+							["body"] = "#showtooltip \n/use Rôder\n",
+						}, -- [18]
+					},
+					["d"] = "21/07/18 19:01:05",
+					["n"] = "",
+				}, -- [3]
+			},
+			["lastbackup"] = "21/07/18 19:01:05",
+		},
+		["Adroite - Kael'thas"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "135735",
+					["name"] = "A.01",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [nochanneling:Projectiles des Arcanes]   reset=60 Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Barrage des Arcanes\n",
+				},
+				[124] = {
+					["icon"] = "136048",
+					["name"] = "A.03",
+					["body"] = "/use Pouvoir des Arcanes\n",
+				},
+				[121] = {
+					["icon"] = "1711487",
+					["name"] = "12",
+					["body"] = "#showtooltip\n/dismount [mounted]\n/castrandom [flyable] Aile-ensorcelée pourpre; [noflyable] Palefroi de guerre prestigieux,Coursier d’ivoire prestigieux\n",
+				},
+				[123] = {
+					["icon"] = "136096",
+					["name"] = "A.02",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancer [nochanneling:Projectiles des Arcanes] Projectiles des Arcanes\n",
+				},
+				[125] = {
+					["icon"] = "136031",
+					["name"] = "A.04",
+					["body"] = "/use Présence spirituelle\n",
+				},
+			},
+			["backups"] = {
+				{
+					["m"] = {
+						{
+							["icon"] = 1711487,
+							["index"] = 121,
+							["name"] = "12",
+							["body"] = "#showtooltip\n/dismount [mounted]\n/castrandom [flyable] Aile-ensorcelée pourpre; [noflyable] Palefroi de guerre prestigieux,Coursier d’ivoire prestigieux\n",
+						}, -- [1]
+						{
+							["icon"] = 135735,
+							["index"] = 122,
+							["name"] = "A.01",
+							["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [nochanneling:Projectiles des Arcanes]   reset=60 Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Barrage des Arcanes\n",
+						}, -- [2]
+						{
+							["icon"] = 136096,
+							["index"] = 123,
+							["name"] = "A.02",
+							["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancer [nochanneling:Projectiles des Arcanes] Projectiles des Arcanes\n",
+						}, -- [3]
+						{
+							["icon"] = 136048,
+							["index"] = 124,
+							["name"] = "A.03",
+							["body"] = "/use Pouvoir des Arcanes",
+						}, -- [4]
+						{
+							["icon"] = 136031,
+							["index"] = 125,
+							["name"] = "A.04",
+							["body"] = "/use Présence spirituelle",
+						}, -- [5]
+					},
+					["d"] = "21/07/18 19:51:24",
+					["n"] = "",
+				}, -- [1]
+			},
+			["lastbackup"] = "21/07/18 19:51:24",
+		},
+		["Lionknight - Kael'thas"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "236265",
+					["name"] = "A.02",
+					["body"] = "#showtooltip\n/lancersuite reset=target/combat Bouclier du vertueux,Consécration,Consécration,Lumière du protecteur\n/use Résolution apocalyptique\n",
+				},
+				[124] = {
+					["icon"] = "236253",
+					["name"] = "A.04",
+					["body"] = "#showtooltip\n/use Frappe du croisé\n",
+				},
+				[126] = {
+					["icon"] = "1519875",
+					["name"] = "A.12",
+					["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Destrier doré de généralissime\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Destrier doré de généralissime\n",
+				},
+				[121] = {
+					["icon"] = "135874",
+					["name"] = "A.01",
+					["body"] = "#showtooltip\n/use Bouclier du vengeur\n",
+				},
+				[123] = {
+					["icon"] = "135959",
+					["name"] = "A.03",
+					["body"] = "#showtooltip \n/use Jugement\n",
+				},
+				[125] = {
+					["icon"] = "135984",
+					["name"] = "A.11",
+					["body"] = "#showtooltip\n/use [@mouseover,harm,nodead][]Main de rétribution\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Xióngmao - Kael'thas"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "237582",
+					["name"] = "02",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/castsequence reset=6 Explosion de lave\n",
+				},
+				[124] = {
+					["icon"] = "136026",
+					["name"] = "04",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/castsequence  reset=combat Horion de terre\n",
+				},
+				[121] = {
+					["icon"] = "135813",
+					["name"] = "01",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/castsequence reset=6 Horion de flammes,Horion de givre\n",
+				},
+				[123] = {
+					["icon"] = "136048",
+					["name"] = "03",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/castsequence  reset=combat Éclair,Chaîne d’éclairs\n",
+				},
+				[125] = {
+					["icon"] = "136015",
+					["name"] = "05",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/castsequence  reset=combat  Chaîne d’éclairs\n",
+				},
+			},
+		},
+		["Maäre - Kael'thas"] = {
+			["macros"] = {
+				[121] = {
+					["icon"] = "136200",
+					["name"] = "04",
+					["body"] = "#showtooltip\n/lancersuite [noform] !Forme d'Ombre; [@target][@player]reset=combat Vide sombre\n/lancer Éclair de Vide\n",
+				},
+				[122] = {
+					["icon"] = "136200",
+					["name"] = "A.01",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [noform] !Forme d'Ombre;  [@target][@player]Éruption du Vide\n/click ActionBarButton1\n",
+				},
+				[123] = {
+					["icon"] = "136200",
+					["name"] = "A.02",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [noform] !Forme d'Ombre;  [@target,nochanneling][@player,nochanneling]Attaque mentale\n/click ActionBarButton1\n",
+				},
+				[124] = {
+					["icon"] = "136200",
+					["name"] = "A.03",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [noform] !Forme d'Ombre;  [@target][@player]reset=combat Mot de pouvoir : Bouclier,Mot de l’ombre : Douleur,Toucher vampirique,Fouet mental\n/lancer Mot de pouvoir : Bouclier\n",
+				},
+			},
+			["backups"] = {
+				{
+					["m"] = {
+						{
+							["name"] = "01SHAD",
+							["icon"] = 610679,
+							["index"] = 121,
+							["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [@target,nochanneling][@player,nochanneling]reset=combat Mot de l’ombre : Vide,Mot de pouvoir : Bouclier,Guérison de l’ombre",
+						}, -- [1]
+						{
+							["name"] = "04",
+							["icon"] = 135940,
+							["index"] = 122,
+							["body"] = "#showtooltip\n/lancersuite [@target][@player]reset=combat Mot de pouvoir : Bouclier,Guérison de l’ombre",
+						}, -- [2]
+						{
+							["name"] = "A.01",
+							["icon"] = 1386548,
+							["index"] = 123,
+							["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [@target][@player]Éruption du Vide",
+						}, -- [3]
+						{
+							["name"] = "A.02",
+							["icon"] = 136207,
+							["index"] = 124,
+							["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [@target][@player]Mot de l’ombre : Douleur,Toucher vampirique,Fouet mental,Fouet mental",
+						}, -- [4]
+					},
+					["d"] = "21/07/18 13:23:57",
+					["n"] = "MACROS",
+				}, -- [1]
+			},
+			["lastbackup"] = "21/07/18 13:23:57",
+		},
+		["Darklion - Kael'thas"] = {
+			["macros"] = {
+				[127] = {
+					["name"] = "04ASS",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/castsequence reset=combat Lame toxique,Rupture,Éventail de couteaux\n",
+				},
+				[122] = {
+					["name"] = "01ASS",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite reset=combat Garrot,Estropier,Estropier,Rupture\n",
+				},
+				[124] = {
+					["name"] = "02ASS",
+					["icon"] = "132294",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite reset=combat Feinte,Rupture,Éventail de couteaux\n",
+				},
+				[126] = {
+					["name"] = "04",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/lancersuite [@focus,exists,nodead,nostealth]Ficelles du métier\n",
+				},
+				[121] = {
+					["name"] = "01",
+					["icon"] = "1035040",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite  [nostealth]reset=combat Attaque sournoise,Attaque sournoise,Eviscération;[stealth] Frappe-ténèbres,Frappe-ténèbres,Eviscération\n",
+				},
+				[123] = {
+					["name"] = "02",
+					["icon"] = "132294",
+					["body"] = "#showtooltip\n/startattack [nodead][harm]\n/lancersuite [nostealth] reset=combat Feinte,Lamenuit\n",
+				},
+				[125] = {
+					["name"] = "03ASS",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/lancersuite [@focus,exists] Ficelles du métier;[@target] reset=combat Rupture,Éventail de couteaux\n",
+				},
+				[128] = {
+					["name"] = "30",
+					["icon"] = "236279",
+					["body"] = "#showtooltip\n/startattack [harm,nodead]\n/lancersuite reset=combat Danse de l’ombre,Symboles de mort,Lamenuit\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Mathô - Kael'thas"] = "profile",
+		["Smithet - Kael'thas"] = "profile",
+		["Mathö - Kael'thas"] = "profile",
+		["Adroite - Kael'thas"] = "profile",
+		["Lionknight - Kael'thas"] = "profile",
+		["Xióngmao - Kael'thas"] = "profile",
+		["Maäre - Kael'thas"] = "profile",
+		["Darklion - Kael'thas"] = "profile",
+	},
+	["global"] = {
+		["lastbackup"] = "21/07/18 19:51:27",
+		["ebackups"] = {
+		},
+		["backups"] = {
+			{
+				["m"] = {
+					{
+						["name"] = "A.01",
+						["icon"] = 134400,
+						["index"] = 1,
+						["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+					}, -- [1]
+					{
+						["name"] = "A.02",
+						["icon"] = 134400,
+						["index"] = 2,
+						["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+					}, -- [2]
+					{
+						["name"] = "A.03",
+						["icon"] = 134400,
+						["index"] = 3,
+						["body"] = "#showtooltip\n/use [form:1,nomod] Mutiler ; [form:1,mod] Ferpoil ; [noform:1] Forme d'ours\n/click ActionBarButton1\n",
+					}, -- [3]
+					{
+						["name"] = "A.04",
+						["icon"] = 134400,
+						["index"] = 4,
+						["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+					}, -- [4]
+					{
+						["name"] = "A.05",
+						["icon"] = 134400,
+						["index"] = 5,
+						["body"] = "#showtooltip\n/use [form:1] Balayage ; [noform:1] Forme d'ours\n",
+					}, -- [5]
+					{
+						["name"] = "A.06",
+						["icon"] = 134400,
+						["index"] = 6,
+						["body"] = "#showtooltip\n/cast Charge sauvage\n",
+					}, -- [6]
+					{
+						["name"] = "A.07",
+						["icon"] = 134400,
+						["index"] = 7,
+						["body"] = "#showtooltip\n/use [form:1] Coup de crâne; [noform:1] Forme d'ours\n",
+					}, -- [7]
+					{
+						["name"] = "A.08",
+						["icon"] = 134400,
+						["index"] = 8,
+						["body"] = "#showtooltip\n/use [form:1] Instincts de survie ; [noform:1] Forme d'ours\n",
+					}, -- [8]
+					{
+						["name"] = "A.09",
+						["icon"] = 134400,
+						["index"] = 9,
+						["body"] = "#showtooltip\n/use [form:1] Ferpoil ; [noform:1] Forme d'ours\n",
+					}, -- [9]
+					{
+						["name"] = "A.10",
+						["icon"] = 134400,
+						["index"] = 10,
+						["body"] = "#showtooltip\n/use [form:1] Régénération frénétique ; [noform:1] Forme d'ours\n",
+					}, -- [10]
+					{
+						["name"] = "A.11",
+						["icon"] = 134400,
+						["index"] = 11,
+						["body"] = "#showtooltip\n/use [form:1] Grondement ; [noform:1,@mouseover] Rétablissement \n",
+					}, -- [11]
+					{
+						["name"] = "A.12",
+						["icon"] = 134400,
+						["index"] = 12,
+						["body"] = "#showtooltip\n/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin\n",
+					}, -- [12]
+					{
+						["name"] = "AAP_MACRO",
+						["icon"] = 134400,
+						["index"] = 13,
+						["body"] = "/script print('no button yet')\n",
+					}, -- [13]
+					{
+						["name"] = "B.05",
+						["icon"] = 134400,
+						["index"] = 14,
+						["body"] = "/lancer Rugissement incapacitant\n",
+					}, -- [14]
+					{
+						["name"] = "B.06",
+						["icon"] = 134400,
+						["index"] = 15,
+						["body"] = "/lancer Ruée rugissante\n",
+					}, -- [15]
+					{
+						["name"] = "B.07",
+						["icon"] = 134400,
+						["index"] = 16,
+						["body"] = "/lancer Ressusciter\n",
+					}, -- [16]
+					{
+						["name"] = "B.08",
+						["icon"] = 134400,
+						["index"] = 17,
+						["body"] = "/lancer Renaissance\n",
+					}, -- [17]
+					{
+						["name"] = "B.09",
+						["icon"] = 134400,
+						["index"] = 18,
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [18]
+					{
+						["name"] = "B.10",
+						["icon"] = 134400,
+						["index"] = 19,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [19]
+					{
+						["name"] = "B.11",
+						["icon"] = 134400,
+						["index"] = 20,
+						["body"] = "#showtooltip\n/lancer Célérité\n",
+					}, -- [20]
+					{
+						["name"] = "B.12",
+						["icon"] = 134400,
+						["index"] = 21,
+						["body"] = "#showtooltip \n/use Rôder\n",
+					}, -- [21]
+					{
+						["name"] = "C.01",
+						["icon"] = 134400,
+						["index"] = 22,
+						["body"] = "#showtooltip\n/use Marche du rêve\n",
+					}, -- [22]
+					{
+						["name"] = "C.05",
+						["icon"] = 463876,
+						["index"] = 23,
+						["body"] = "#showtooltip\n/lancer Charge de taureau(Racial)\n/lancer Sombre course(Raciale)\n",
+					}, -- [23]
+					{
+						["name"] = "C.06",
+						["icon"] = 135999,
+						["index"] = 24,
+						["body"] = "/sr rc\n",
+					}, -- [24]
+					{
+						["name"] = "C.07",
+						["icon"] = 136004,
+						["index"] = 25,
+						["body"] = "/sf pull\n",
+					}, -- [25]
+					{
+						["name"] = "C.08",
+						["icon"] = 136005,
+						["index"] = 26,
+						["body"] = "/sf stop\n",
+					}, -- [26]
+					{
+						["name"] = "C.09",
+						["icon"] = 1322720,
+						["index"] = 27,
+						["body"] = "/use Médaillon honorable\n",
+					}, -- [27]
+					{
+						["name"] = "C.11",
+						["icon"] = 134400,
+						["index"] = 28,
+						["body"] = "/lancer Cristal de la matrice du Vindicaar\n",
+					}, -- [28]
+					{
+						["name"] = "D.01",
+						["icon"] = 616692,
+						["index"] = 29,
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi",
+					}, -- [29]
+					{
+						["name"] = "D.02",
+						["icon"] = 1495827,
+						["index"] = 30,
+						["body"] = "/notes",
+					}, -- [30]
+					{
+						["name"] = "D.03",
+						["icon"] = 1109100,
+						["index"] = 31,
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II",
+					}, -- [31]
+					{
+						["name"] = "D.04",
+						["icon"] = 252282,
+						["index"] = 32,
+						["body"] = "#showtooltip\n/use Epée en mousse souple",
+					}, -- [32]
+					{
+						["name"] = "D.05",
+						["icon"] = 413587,
+						["index"] = 33,
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)",
+					}, -- [33]
+					{
+						["name"] = "D.06",
+						["icon"] = 135769,
+						["index"] = 34,
+						["body"] = "/i salut",
+					}, -- [34]
+					{
+						["name"] = "D.07",
+						["icon"] = 134400,
+						["index"] = 35,
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [35]
+					{
+						["name"] = "D.08",
+						["icon"] = 134400,
+						["index"] = 36,
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge",
+					}, -- [36]
+					{
+						["name"] = "D.09",
+						["icon"] = 134400,
+						["index"] = 37,
+						["body"] = "#showtooltip\n/use Pierre de soins",
+					}, -- [37]
+					{
+						["name"] = "Decursive",
+						["icon"] = 134400,
+						["index"] = 38,
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Purifier la maladie;  [@mouseover,exists,mod:ctrl] Dissipation de la magie; [@mouseover,exists,mod:shift] Purifier la maladie",
+					}, -- [38]
+					{
+						["name"] = "zHarmfull",
+						["icon"] = 134400,
+						["index"] = 39,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [39]
+					{
+						["name"] = "zHelpfull",
+						["icon"] = 134400,
+						["index"] = 40,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [40]
+				},
+				["d"] = "21/07/18 13:27:35",
+				["n"] = "MACROS",
+			}, -- [1]
+			{
+				["m"] = {
+					{
+						["name"] = "A.01",
+						["icon"] = 134400,
+						["index"] = 1,
+						["body"] = "#showtooltip \n/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+					}, -- [1]
+					{
+						["name"] = "A.02",
+						["icon"] = 134400,
+						["index"] = 2,
+						["body"] = "#showtooltip\n/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours\n/click ActionBarButton3\n/use Ecorce",
+					}, -- [2]
+					{
+						["name"] = "A.03",
+						["icon"] = 134400,
+						["index"] = 3,
+						["body"] = "#showtooltip\n/use [form:1,nomod] Mutiler ; [form:1,mod] Ferpoil ; [noform:1] Forme d'ours\n/click ActionBarButton1\n",
+					}, -- [3]
+					{
+						["name"] = "A.04",
+						["icon"] = 134400,
+						["index"] = 4,
+						["body"] = "#showtooltip\n/cleartarget [dead][noharm]\n/startattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)\n",
+					}, -- [4]
+					{
+						["name"] = "A.05",
+						["icon"] = 134400,
+						["index"] = 5,
+						["body"] = "#showtooltip\n/use [form:1] Balayage ; [noform:1] Forme d'ours\n",
+					}, -- [5]
+					{
+						["name"] = "A.06",
+						["icon"] = 134400,
+						["index"] = 6,
+						["body"] = "#showtooltip\n/cast Charge sauvage\n",
+					}, -- [6]
+					{
+						["name"] = "A.07",
+						["icon"] = 134400,
+						["index"] = 7,
+						["body"] = "#showtooltip\n/use [form:1] Coup de crâne; [noform:1] Forme d'ours\n",
+					}, -- [7]
+					{
+						["name"] = "A.08",
+						["icon"] = 134400,
+						["index"] = 8,
+						["body"] = "#showtooltip\n/use [form:1] Instincts de survie ; [noform:1] Forme d'ours\n",
+					}, -- [8]
+					{
+						["name"] = "A.09",
+						["icon"] = 134400,
+						["index"] = 9,
+						["body"] = "#showtooltip\n/use [form:1] Ferpoil ; [noform:1] Forme d'ours\n",
+					}, -- [9]
+					{
+						["name"] = "A.10",
+						["icon"] = 134400,
+						["index"] = 10,
+						["body"] = "#showtooltip\n/use [form:1] Régénération frénétique ; [noform:1] Forme d'ours\n",
+					}, -- [10]
+					{
+						["name"] = "A.11",
+						["icon"] = 134400,
+						["index"] = 11,
+						["body"] = "#showtooltip\n/use [form:1] Grondement ; [noform:1,@mouseover] Rétablissement \n",
+					}, -- [11]
+					{
+						["name"] = "A.12",
+						["icon"] = 134400,
+						["index"] = 12,
+						["body"] = "#showtooltip\n/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin\n",
+					}, -- [12]
+					{
+						["name"] = "A.12",
+						["icon"] = 1586383,
+						["index"] = 13,
+						["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Exossature sancteforge\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Motolame de champion",
+					}, -- [13]
+					{
+						["name"] = "AAP_MACRO",
+						["icon"] = 134400,
+						["index"] = 14,
+						["body"] = "/script print('no button yet')\n",
+					}, -- [14]
+					{
+						["name"] = "B.05",
+						["icon"] = 134400,
+						["index"] = 15,
+						["body"] = "/lancer Rugissement incapacitant\n",
+					}, -- [15]
+					{
+						["name"] = "B.06",
+						["icon"] = 134400,
+						["index"] = 16,
+						["body"] = "/lancer Ruée rugissante\n",
+					}, -- [16]
+					{
+						["name"] = "B.07",
+						["icon"] = 134400,
+						["index"] = 17,
+						["body"] = "/lancer Ressusciter\n",
+					}, -- [17]
+					{
+						["name"] = "B.08",
+						["icon"] = 134400,
+						["index"] = 18,
+						["body"] = "/lancer Renaissance\n",
+					}, -- [18]
+					{
+						["name"] = "B.09",
+						["icon"] = 134400,
+						["index"] = 19,
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [19]
+					{
+						["name"] = "B.10",
+						["icon"] = 134400,
+						["index"] = 20,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [20]
+					{
+						["name"] = "B.11",
+						["icon"] = 134400,
+						["index"] = 21,
+						["body"] = "#showtooltip\n/lancer Célérité\n",
+					}, -- [21]
+					{
+						["name"] = "B.12",
+						["icon"] = 134400,
+						["index"] = 22,
+						["body"] = "#showtooltip \n/use Rôder\n",
+					}, -- [22]
+					{
+						["name"] = "C.01",
+						["icon"] = 134400,
+						["index"] = 23,
+						["body"] = "#showtooltip\n/use Marche du rêve\n",
+					}, -- [23]
+					{
+						["name"] = "C.05",
+						["icon"] = 463876,
+						["index"] = 24,
+						["body"] = "#showtooltip\n/lancer Charge de taureau(Racial)\n/lancer Sombre course(Raciale)\n",
+					}, -- [24]
+					{
+						["name"] = "D.01",
+						["icon"] = 616692,
+						["index"] = 25,
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi",
+					}, -- [25]
+					{
+						["name"] = "D.02",
+						["icon"] = 1495827,
+						["index"] = 26,
+						["body"] = "/notes",
+					}, -- [26]
+					{
+						["name"] = "D.03",
+						["icon"] = 1109100,
+						["index"] = 27,
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II",
+					}, -- [27]
+					{
+						["name"] = "D.04",
+						["icon"] = 252282,
+						["index"] = 28,
+						["body"] = "#showtooltip\n/use Epée en mousse souple",
+					}, -- [28]
+					{
+						["name"] = "D.05",
+						["icon"] = 413587,
+						["index"] = 29,
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)",
+					}, -- [29]
+					{
+						["name"] = "D.06",
+						["icon"] = 135769,
+						["index"] = 30,
+						["body"] = "/i salut",
+					}, -- [30]
+					{
+						["name"] = "D.07",
+						["icon"] = 134400,
+						["index"] = 31,
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [31]
+					{
+						["name"] = "D.08",
+						["icon"] = 134400,
+						["index"] = 32,
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge",
+					}, -- [32]
+					{
+						["name"] = "D.09",
+						["icon"] = 134400,
+						["index"] = 33,
+						["body"] = "#showtooltip\n/use Pierre de soins",
+					}, -- [33]
+					{
+						["name"] = "D.10",
+						["icon"] = 338784,
+						["index"] = 34,
+						["body"] = "#showtooltip\n/use Médaillon honorable",
+					}, -- [34]
+					{
+						["name"] = "D.11",
+						["icon"] = 134400,
+						["index"] = 35,
+						["body"] = "#showtooltip\n/use Cristal de la matrice du Vindicaar",
+					}, -- [35]
+					{
+						["name"] = "Decursive",
+						["icon"] = 134400,
+						["index"] = 36,
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Purifier la maladie;  [@mouseover,exists,mod:ctrl] Dissipation de la magie; [@mouseover,exists,mod:shift] Purifier la maladie",
+					}, -- [36]
+					{
+						["name"] = "RU.01",
+						["icon"] = 135999,
+						["index"] = 37,
+						["body"] = "/sf rc\n",
+					}, -- [37]
+					{
+						["name"] = "RU.02",
+						["icon"] = 136004,
+						["index"] = 38,
+						["body"] = "/sf pull\n",
+					}, -- [38]
+					{
+						["name"] = "RU.03",
+						["icon"] = 136005,
+						["index"] = 39,
+						["body"] = "/sf stop\n",
+					}, -- [39]
+					{
+						["name"] = "zHarmfull",
+						["icon"] = 134400,
+						["index"] = 40,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [40]
+					{
+						["name"] = "zHelpfull",
+						["icon"] = 134400,
+						["index"] = 41,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [41]
+				},
+				["d"] = "21/07/18 14:01:27",
+				["n"] = "",
+			}, -- [2]
+			{
+				["m"] = {
+					{
+						["name"] = "A.12",
+						["icon"] = 1586383,
+						["index"] = 1,
+						["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Exossature sancteforge\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Motolame de champion\n",
+					}, -- [1]
+					{
+						["name"] = "B.09",
+						["icon"] = 236170,
+						["index"] = 2,
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [2]
+					{
+						["name"] = "B.10",
+						["icon"] = 136100,
+						["index"] = 3,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [3]
+					{
+						["name"] = "D.01",
+						["icon"] = 616692,
+						["index"] = 4,
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi\n",
+					}, -- [4]
+					{
+						["name"] = "D.02",
+						["icon"] = 1495827,
+						["index"] = 5,
+						["body"] = "/notes\n",
+					}, -- [5]
+					{
+						["name"] = "D.03",
+						["icon"] = 1109100,
+						["index"] = 6,
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II\n",
+					}, -- [6]
+					{
+						["name"] = "D.04",
+						["icon"] = 252282,
+						["index"] = 7,
+						["body"] = "#showtooltip\n/use Epée en mousse souple\n",
+					}, -- [7]
+					{
+						["name"] = "D.05",
+						["icon"] = 413587,
+						["index"] = 8,
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)\n",
+					}, -- [8]
+					{
+						["name"] = "D.06",
+						["icon"] = 135769,
+						["index"] = 9,
+						["body"] = "/i salut\n",
+					}, -- [9]
+					{
+						["name"] = "D.07",
+						["icon"] = 134924,
+						["index"] = 10,
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [10]
+					{
+						["name"] = "D.08",
+						["icon"] = 1058940,
+						["index"] = 11,
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge\n",
+					}, -- [11]
+					{
+						["name"] = "D.09",
+						["icon"] = 134400,
+						["index"] = 12,
+						["body"] = "#showtooltip\n/use Pierre de soins\n",
+					}, -- [12]
+					{
+						["name"] = "D.10",
+						["icon"] = 1322720,
+						["index"] = 13,
+						["body"] = "#showtooltip\n/use Médaillon honorable\n",
+					}, -- [13]
+					{
+						["name"] = "D.11",
+						["icon"] = 1033183,
+						["index"] = 14,
+						["body"] = "#showtooltip\n/use Cristal de la matrice du Vindicaar\n",
+					}, -- [14]
+					{
+						["name"] = "Decursive",
+						["icon"] = 134400,
+						["index"] = 15,
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Délivrance de la corruption;  [@mouseover,exists,mod:ctrl] Délivrance de la corruption; [@mouseover,exists,mod:shift] Délivrance de la corruption",
+					}, -- [15]
+					{
+						["name"] = "RU.01",
+						["icon"] = 135999,
+						["index"] = 16,
+						["body"] = "/sf rc\n",
+					}, -- [16]
+					{
+						["name"] = "RU.02",
+						["icon"] = 136004,
+						["index"] = 17,
+						["body"] = "/sf pull\n",
+					}, -- [17]
+					{
+						["name"] = "RU.03",
+						["icon"] = 136005,
+						["index"] = 18,
+						["body"] = "/sf stop\n",
+					}, -- [18]
+					{
+						["name"] = "zHarmfull",
+						["icon"] = 134400,
+						["index"] = 19,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [19]
+					{
+						["name"] = "zHelpfull",
+						["icon"] = 134400,
+						["index"] = 20,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [20]
+				},
+				["d"] = "21/07/18 16:11:46",
+				["n"] = "",
+			}, -- [3]
+			{
+				["m"] = {
+					{
+						["index"] = 1,
+						["name"] = "A.12",
+						["icon"] = 1586383,
+						["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Exossature sancteforge\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Motolame de champion\n",
+					}, -- [1]
+					{
+						["index"] = 2,
+						["name"] = "AAP_MACRO",
+						["icon"] = 134400,
+						["body"] = "/script print('no button yet')",
+					}, -- [2]
+					{
+						["index"] = 3,
+						["name"] = "B.09",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [3]
+					{
+						["index"] = 4,
+						["name"] = "B.10",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [4]
+					{
+						["index"] = 5,
+						["name"] = "D.01",
+						["icon"] = 616692,
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi\n",
+					}, -- [5]
+					{
+						["index"] = 6,
+						["name"] = "D.02",
+						["icon"] = 1495827,
+						["body"] = "/notes\n",
+					}, -- [6]
+					{
+						["index"] = 7,
+						["name"] = "D.03",
+						["icon"] = 1109100,
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II\n",
+					}, -- [7]
+					{
+						["index"] = 8,
+						["name"] = "D.04",
+						["icon"] = 252282,
+						["body"] = "#showtooltip\n/use Epée en mousse souple\n",
+					}, -- [8]
+					{
+						["index"] = 9,
+						["name"] = "D.05",
+						["icon"] = 413587,
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)\n",
+					}, -- [9]
+					{
+						["index"] = 10,
+						["name"] = "D.06",
+						["icon"] = 135769,
+						["body"] = "/i salut\n",
+					}, -- [10]
+					{
+						["index"] = 11,
+						["name"] = "D.07",
+						["icon"] = 134924,
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [11]
+					{
+						["index"] = 12,
+						["name"] = "D.08",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge\n",
+					}, -- [12]
+					{
+						["index"] = 13,
+						["name"] = "D.09",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/use Pierre de soins\n",
+					}, -- [13]
+					{
+						["index"] = 14,
+						["name"] = "D.10",
+						["icon"] = 1322720,
+						["body"] = "#showtooltip\n/use Médaillon honorable\n",
+					}, -- [14]
+					{
+						["index"] = 15,
+						["name"] = "D.11",
+						["icon"] = 1033183,
+						["body"] = "#showtooltip\n/use Cristal de la matrice du Vindicaar\n",
+					}, -- [15]
+					{
+						["index"] = 16,
+						["name"] = "Decursive",
+						["icon"] = 134400,
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Purification des toxines;  [@mouseover,exists,mod:ctrl] Purification des toxines; [@mouseover,exists,mod:shift] Purification des toxines",
+					}, -- [16]
+					{
+						["index"] = 17,
+						["name"] = "RU.01",
+						["icon"] = 135999,
+						["body"] = "/sf rc\n",
+					}, -- [17]
+					{
+						["index"] = 18,
+						["name"] = "RU.02",
+						["icon"] = 136004,
+						["body"] = "/sf pull\n",
+					}, -- [18]
+					{
+						["index"] = 19,
+						["name"] = "RU.03",
+						["icon"] = 136005,
+						["body"] = "/sf stop\n",
+					}, -- [19]
+					{
+						["index"] = 20,
+						["name"] = "zHarmfull",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [20]
+					{
+						["index"] = 21,
+						["name"] = "zHelpfull",
+						["icon"] = 134400,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [21]
+				},
+				["d"] = "21/07/18 16:24:29",
+				["n"] = "",
+			}, -- [4]
+			{
+				["m"] = {
+					{
+						["name"] = "A.12",
+						["icon"] = 1586383,
+						["index"] = 1,
+						["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Exossature sancteforge\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Motolame de champion\n",
+					}, -- [1]
+					{
+						["name"] = "AAP_MACRO",
+						["icon"] = 134400,
+						["index"] = 2,
+						["body"] = "/script print('no button yet')\n",
+					}, -- [2]
+					{
+						["name"] = "B.09",
+						["icon"] = 236170,
+						["index"] = 3,
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [3]
+					{
+						["name"] = "B.10",
+						["icon"] = 136100,
+						["index"] = 4,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [4]
+					{
+						["name"] = "D.01",
+						["icon"] = 616692,
+						["index"] = 5,
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi\n",
+					}, -- [5]
+					{
+						["name"] = "D.02",
+						["icon"] = 1495827,
+						["index"] = 6,
+						["body"] = "/notes\n",
+					}, -- [6]
+					{
+						["name"] = "D.03",
+						["icon"] = 1109100,
+						["index"] = 7,
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II\n",
+					}, -- [7]
+					{
+						["name"] = "D.04",
+						["icon"] = 252282,
+						["index"] = 8,
+						["body"] = "#showtooltip\n/use Epée en mousse souple\n",
+					}, -- [8]
+					{
+						["name"] = "D.05",
+						["icon"] = 413587,
+						["index"] = 9,
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)\n",
+					}, -- [9]
+					{
+						["name"] = "D.06",
+						["icon"] = 135769,
+						["index"] = 10,
+						["body"] = "/i salut\n",
+					}, -- [10]
+					{
+						["name"] = "D.07",
+						["icon"] = 134924,
+						["index"] = 11,
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [11]
+					{
+						["name"] = "D.08",
+						["icon"] = 1058940,
+						["index"] = 12,
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge\n",
+					}, -- [12]
+					{
+						["name"] = "D.09",
+						["icon"] = 134400,
+						["index"] = 13,
+						["body"] = "#showtooltip\n/use Pierre de soins\n",
+					}, -- [13]
+					{
+						["name"] = "D.10",
+						["icon"] = 1322720,
+						["index"] = 14,
+						["body"] = "#showtooltip\n/use Médaillon honorable\n",
+					}, -- [14]
+					{
+						["name"] = "D.11",
+						["icon"] = 1033183,
+						["index"] = 15,
+						["body"] = "#showtooltip\n/use Cristal de la matrice du Vindicaar\n",
+					}, -- [15]
+					{
+						["name"] = "Decursive",
+						["icon"] = 134400,
+						["index"] = 16,
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Délivrance de la corruption;  [@mouseover,exists,mod:ctrl] Délivrance de la corruption; [@mouseover,exists,mod:shift] Délivrance de la corruption",
+					}, -- [16]
+					{
+						["name"] = "RU.01",
+						["icon"] = 135999,
+						["index"] = 17,
+						["body"] = "/sf rc\n",
+					}, -- [17]
+					{
+						["name"] = "RU.02",
+						["icon"] = 136004,
+						["index"] = 18,
+						["body"] = "/sf pull\n",
+					}, -- [18]
+					{
+						["name"] = "RU.03",
+						["icon"] = 136005,
+						["index"] = 19,
+						["body"] = "/sf stop\n",
+					}, -- [19]
+					{
+						["name"] = "zHarmfull",
+						["icon"] = 134400,
+						["index"] = 20,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [20]
+					{
+						["name"] = "zHelpfull",
+						["icon"] = 134400,
+						["index"] = 21,
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [21]
+				},
+				["d"] = "21/07/18 19:01:08",
+				["n"] = "",
+			}, -- [5]
+			{
+				["m"] = {
+					{
+						["icon"] = 1586383,
+						["index"] = 1,
+						["name"] = "A.12",
+						["body"] = "#showtooltip\n/dismount [mounted]\n/use [nomod,flyable]Exossature sancteforge\n/use [mod,flyable]Traque-ciel de Hurlevent\n/use [noflyable]Motolame de champion\n",
+					}, -- [1]
+					{
+						["icon"] = 134400,
+						["index"] = 2,
+						["name"] = "AAP_MACRO",
+						["body"] = "/script print('no button yet')\n",
+					}, -- [2]
+					{
+						["icon"] = 134400,
+						["index"] = 3,
+						["name"] = "B.09",
+						["body"] = "#showtooltip\n/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon\n",
+					}, -- [3]
+					{
+						["icon"] = 134400,
+						["index"] = 4,
+						["name"] = "B.10",
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments\n",
+					}, -- [4]
+					{
+						["icon"] = 616692,
+						["index"] = 5,
+						["name"] = "D.01",
+						["body"] = "#showtooltip\n/use [nomod]Yack de la grande expédition\n/use [mod]Trotteur aquatique cramoisi\n",
+					}, -- [5]
+					{
+						["icon"] = 1495827,
+						["index"] = 6,
+						["name"] = "D.02",
+						["body"] = "/notes\n",
+					}, -- [6]
+					{
+						["icon"] = 1109100,
+						["index"] = 7,
+						["name"] = "D.03",
+						["body"] = "#showtooltip\n/use Appareil photo P.R.O.F.I.L. Mod.II\n",
+					}, -- [7]
+					{
+						["icon"] = 252282,
+						["index"] = 8,
+						["name"] = "D.04",
+						["body"] = "#showtooltip\n/use Epée en mousse souple\n",
+					}, -- [8]
+					{
+						["icon"] = 413587,
+						["index"] = 9,
+						["name"] = "D.05",
+						["body"] = "#showtooltip\n/use Banque mobile(Bonus de guilde)\n",
+					}, -- [9]
+					{
+						["icon"] = 135769,
+						["index"] = 10,
+						["name"] = "D.06",
+						["body"] = "/i salut\n",
+					}, -- [10]
+					{
+						["icon"] = 134400,
+						["index"] = 11,
+						["name"] = "D.07",
+						["body"] = "#showtooltip\n/use Focalisateur gangrené reconverti\n",
+					}, -- [11]
+					{
+						["icon"] = 134400,
+						["index"] = 12,
+						["name"] = "D.08",
+						["body"] = "#showtooltip\n/use Rune d'amélioration sancteforge\n",
+					}, -- [12]
+					{
+						["icon"] = 134400,
+						["index"] = 13,
+						["name"] = "D.09",
+						["body"] = "#showtooltip\n/use Pierre de soins\n",
+					}, -- [13]
+					{
+						["icon"] = 1322720,
+						["index"] = 14,
+						["name"] = "D.10",
+						["body"] = "#showtooltip\n/use Médaillon honorable\n",
+					}, -- [14]
+					{
+						["icon"] = 134400,
+						["index"] = 15,
+						["name"] = "D.11",
+						["body"] = "#showtooltip\n/use Cristal de la matrice du Vindicaar\n",
+					}, -- [15]
+					{
+						["icon"] = 134400,
+						["index"] = 16,
+						["name"] = "Decursive",
+						["body"] = "/stopcasting\n/cast [@mouseover,nomod,exists] Métamorphose;  [@mouseover,exists,mod:ctrl] Métamorphose; [@mouseover,exists,mod:shift] Métamorphose",
+					}, -- [16]
+					{
+						["icon"] = 135999,
+						["index"] = 17,
+						["name"] = "RU.01",
+						["body"] = "/sf rc\n",
+					}, -- [17]
+					{
+						["icon"] = 136004,
+						["index"] = 18,
+						["name"] = "RU.02",
+						["body"] = "/sf pull\n",
+					}, -- [18]
+					{
+						["icon"] = 136005,
+						["index"] = 19,
+						["name"] = "RU.03",
+						["body"] = "/sf stop\n",
+					}, -- [19]
+					{
+						["icon"] = 134400,
+						["index"] = 20,
+						["name"] = "zHarmfull",
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell\n",
+					}, -- [20]
+					{
+						["icon"] = 134400,
+						["index"] = 21,
+						["name"] = "zHelpfull",
+						["body"] = "#showtooltip\n/stopcasting\n/stopattack\n/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell\n",
+					}, -- [21]
+				},
+				["d"] = "21/07/18 19:51:27",
+				["n"] = "",
+			}, -- [6]
+		},
+		["allcharmacros"] = true,
+	},
+	["profiles"] = {
+		["profile"] = {
+			["y"] = 400.5,
+			["x"] = 562.666809082031,
+			["height"] = 430.666656494141,
+			["override"] = true,
+			["visconditions"] = true,
+			["hidepopup"] = true,
+		},
+	},
+}

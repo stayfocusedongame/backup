@@ -1,0 +1,37 @@
+VER 3 0100000000000002 "01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite  [nostealth]reset=combat Attaque sournoise,Attaque sournoise,Eviscération;[stealth] Frappe-ténèbres,Frappe-ténèbres,Eviscération
+END
+VER 3 0100000000000006 "01ASS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite reset=combat Garrot,Estropier,Estropier,Rupture
+END
+VER 3 0100000000000003 "02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite [nostealth] reset=combat Feinte,Lamenuit
+END
+VER 3 0100000000000007 "02ASS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite reset=combat Feinte,Rupture,Éventail de couteaux
+END
+VER 3 0100000000000009 "03ASS" "INV_Misc_QuestionMark"
+#showtooltip
+/lancersuite [@focus,exists] Ficelles du métier;[@target] reset=combat Rupture,Éventail de couteaux
+END
+VER 3 0100000000000005 "04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancersuite [@focus,exists,nodead,nostealth]Ficelles du métier
+END
+VER 3 0100000000000008 "04ASS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=combat Lame toxique,Rupture,Éventail de couteaux
+END
+VER 3 010000000000000A "30" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack [harm,nodead]
+/lancersuite reset=combat Danse de l’ombre,Symboles de mort,Lamenuit
+END

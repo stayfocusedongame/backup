@@ -1,0 +1,23 @@
+VER 3 0100000000000004 "04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancersuite [noform] !Forme d'Ombre; [@target][@player]reset=combat Vide sombre
+/lancer Éclair de Vide
+END
+VER 3 0100000000000007 "A.01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite [noform] !Forme d'Ombre;  [@target][@player]Éruption du Vide
+/lancer Éclair de Vide
+END
+VER 3 0100000000000006 "A.02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite [noform] !Forme d'Ombre;  [@target,nochanneling][@player,nochanneling]Attaque mentale
+/lancer Éclair de Vide
+END
+VER 3 0100000000000005 "A.03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite [noform] !Forme d'Ombre;  [@target][@player]reset=combat Mot de pouvoir : Bouclier,Mot de l’ombre : Douleur,Toucher vampirique,Fouet mental
+/lancer Mot de pouvoir : Bouclier
+END

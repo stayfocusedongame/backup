@@ -1,0 +1,75 @@
+VER 3 0100000000000011 "A.01" "132276"
+#showtooltip 
+/lancersuite [form:1]reset=target Éclat lunaire(Lunaire),Mutilation;[noform:1]Forme d'ours
+/click ActionBarButton3
+/use Ecorce
+END
+VER 3 0100000000000012 "A.02" "132276"
+#showtooltip
+/lancersuite [form:1]reset=combat/target Rosser,Rosser,Rosser,Pulvérisation;[noform:1]Forme d'ours
+/click ActionBarButton3
+/use Ecorce
+END
+VER 3 0100000000000015 "A.03" "132276"
+#showtooltip
+/use [form:1,nomod]Mutiler;[form:1,mod]Ferpoil;[noform:1]Forme d'ours
+/click ActionBarButton1
+END
+VER 3 0100000000000014 "A.04" "136096"
+#showtooltip
+/cleartarget [dead][noharm]
+/startattack
+/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] [] Éclat lunaire(Lunaire)
+END
+VER 3 0100000000000013 "A.05" "132276"
+#showtooltip
+/use [form:1]Balayage;[noform:1]Forme d'ours
+END
+VER 3 0100000000000018 "A.06" "538771"
+#showtooltip
+/use Charge sauvage
+END
+VER 3 0100000000000016 "A.07" "132276"
+#showtooltip
+/use [form:1]Coup de crâne;[noform:1]Forme d'ours
+END
+VER 3 0100000000000017 "A.08" "132276"
+#showtooltip
+/use [form:1]Instincts de survie;[noform:1]Forme d'ours
+END
+VER 3 0100000000000019 "A.09" "132276"
+#showtooltip
+/use [form:1]Ferpoil;[noform:1]Forme d'ours
+END
+VER 3 010000000000001A "A.10" "132276"
+#showtooltip
+/use [form:1]Régénération frénétique;[noform:1]Forme d'ours
+END
+VER 3 010000000000001B "A.11" "136085"
+#showtooltip
+/use [form:1]Grondement;[noform:1,@mouseover]Rétablissement
+END
+VER 3 010000000000001C "A.12" "132144"
+#showtooltip
+/use [outdoors][swimming]Forme de voyage(Changeforme);[indoors,noswimming]Forme de félin
+END
+VER 3 010000000000001D "B.05" "132121"
+/lancer Rugissement incapacitant
+END
+VER 3 010000000000001E "B.06" "464343"
+/lancer Ruée rugissante
+END
+VER 3 0100000000000020 "B.07" "132132"
+/lancer Ressusciter
+END
+VER 3 010000000000001F "B.08" "136080"
+/lancer Renaissance
+END
+VER 3 0100000000000022 "B.11" "132120"
+#showtooltip
+/lancer Célérité
+END
+VER 3 0100000000000021 "B.12" "514640"
+#showtooltip 
+/use Rôder
+END

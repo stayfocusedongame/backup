@@ -1,0 +1,26 @@
+VER 3 0100000000000005 "A.02" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack [nodead][harm]
+/petattack
+/lancersuite Ordre de tuer,Tir du cobra,Tir acéré,Tir du cobra
+END
+VER 3 0100000000000006 "A.03" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack [nodead][harm]
+/petattack
+/lancersuite Corbeaux hargneux,Tir du cobra,Courroux bestial,Tir du cobra
+END
+VER 3 0100000000000001 "A.04" "INV_Misc_QuestionMark"
+#showtooltip
+/lancersuite [@cursor]reset=combat Piège de goudron,Piège givrant
+END
+VER 3 0100000000000004 "A.04" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack [nodead][harm]
+/petattack
+/lancersuite  Tir de la chimère,Tir du cobra,Bête féroce,Tir du cobra
+END
+VER 3 0100000000000002 "A.11" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,help,nodead][@pet,nodead]Détournement
+END

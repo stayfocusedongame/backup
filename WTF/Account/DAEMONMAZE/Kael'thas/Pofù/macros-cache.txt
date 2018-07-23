@@ -1,0 +1,76 @@
+VER 3 0100000000000005 "A.01" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/startattack [nodead][harm]
+/cast Paume du tigre
+END
+VER 3 0100000000000006 "A.02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/castsequence reset=combat Coup de pied du soleil levant,Frappe du voile noir,Frappe du voile noir
+END
+VER 3 0100000000000007 "A.03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/cast Poings de fureur
+END
+VER 3 0100000000000008 "A.04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/cast Onde de chi
+END
+VER 3 010000000000000A "A.05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Roulade
+END
+VER 3 0100000000000004 "A.06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Pique de main
+END
+VER 3 0100000000000003 "A.07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Toucher mortel
+END
+VER 3 0100000000000002 "A.08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Tempête, Terre et Feu
+END
+VER 3 0100000000000001 "A.09" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Toucher du karma
+END
+VER 3 0100000000000009 "A.10" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopattack
+/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] Vivifier
+END
+VER 3 010000000000000B "A.11" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, dead] Ranimer;Ranimer
+END
+VER 3 010000000000000C "A.12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/castrandom Coursier de bronze prestigieux,Coursier d’ivoire prestigieux,Palefroi de guerre prestigieux
+END
+VER 3 010000000000000D "B.01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Pèlerinage zen
+END
+VER 3 010000000000000E "B.02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Handicap
+END
+VER 3 010000000000000F "B.03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/lancer Éclair de jade crépitant
+END
+VER 3 0100000000000010 "B.04" "INV_MISC_QUESTIONMARK"
+/lancer Coup tournoyant de la grue
+END
+VER 3 0100000000000011 "B.05" "INV_MISC_QUESTIONMARK"
+/lancer Coup du serpent volant
+END
+VER 3 0100000000000012 "B.06" "INV_MISC_QUESTIONMARK"
+/lancersuite Transcendance, Transcendance : Transfert
+END

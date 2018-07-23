@@ -1,0 +1,36 @@
+
+InventorianDB = {
+	["profileKeys"] = {
+		["Xióngmao - Kael'thas"] = "Default",
+		["Pofù - Kael'thas"] = "Default",
+		["Lionknight - Kael'thas"] = "Default",
+		["Darklion - Kael'thas"] = "Default",
+		["Smithet - Kael'thas"] = "Default",
+		["Mathö - Kael'thas"] = "Default",
+		["Adroite - Kael'thas"] = "Default",
+		["Magicrabbit - Kael'thas"] = "Default",
+		["Adroite - Rashgarroth"] = "Default",
+		["Maäre - Kael'thas"] = "Default",
+		["Mathô - Kael'thas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bank"] = {
+				["y"] = -86.4998779296875,
+				["x"] = 3.08291625976563,
+				["point"] = "TOP",
+				["height"] = 523.666625976563,
+				["scale"] = 1,
+				["width"] = 724.49853515625,
+			},
+			["bag"] = {
+				["y"] = 105.833648681641,
+				["x"] = -45.832275390625,
+				["point"] = "BOTTOMRIGHT",
+				["height"] = 532.499633789063,
+				["scale"] = 1,
+				["width"] = 650.833679199219,
+			},
+		},
+	},
+}

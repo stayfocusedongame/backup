@@ -1,0 +1,21 @@
+VER 3 0100000000000001 "01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancersuite [nochanneling:Projectiles des Arcanes]   reset=60 Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Déflagration des Arcanes,Barrage des Arcanes
+END
+VER 3 0100000000000002 "02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [nodead][harm]
+/lancer [nochanneling:Projectiles des Arcanes] Projectiles des Arcanes
+END
+VER 3 0100000000000004 "03" "INV_MISC_QUESTIONMARK"
+/lancer Pouvoir des Arcanes
+END
+VER 3 0100000000000005 "04" "INV_MISC_QUESTIONMARK"
+/lancer Présence spirituelle
+END
+VER 3 0100000000000003 "12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/castrandom [flyable] Aile-ensorcelée pourpre; [noflyable] Palefroi de guerre prestigieux,Coursier d’ivoire prestigieux
+END

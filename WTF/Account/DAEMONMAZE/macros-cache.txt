@@ -1,0 +1,91 @@
+VER 3 0000000000000182 "A.12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/use [nomod,flyable]Exossature sancteforge
+/use [mod,flyable]Traque-ciel de Hurlevent
+/use [noflyable]Motolame de champion
+END
+VER 3 0000000000000183 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000155 "B.09" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Typhon
+END
+VER 3 0000000000000156 "B.10" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopattack
+/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] Sarments
+END
+VER 3 0000000000000160 "Cancel" "237277"
+/sf stop
+END
+VER 3 000000000000015E "Check" "1100022"
+/sf rc
+END
+VER 3 00000000000000E2 "D.01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomod]Yack de la grande expédition
+/use [mod]Trotteur aquatique cramoisi
+END
+VER 3 000000000000017C "D.02" "1495827"
+/notes
+END
+VER 3 000000000000016C "D.03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Appareil photo P.R.O.F.I.L. Mod.II
+END
+VER 3 000000000000016D "D.04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Epée en mousse souple
+END
+VER 3 0000000000000162 "D.05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Banque mobile(Bonus de guilde)
+END
+VER 3 0000000000000164 "D.06" "135769"
+/i salut
+END
+VER 3 0000000000000159 "D.07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Focalisateur gangrené reconverti
+END
+VER 3 000000000000015A "D.08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Rune d'amélioration sancteforge
+END
+VER 3 000000000000015B "D.09" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Pierre de soins
+END
+VER 3 0000000000000161 "D.10" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Médaillon honorable
+END
+VER 3 0000000000000163 "D.11" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Cristal de la matrice du Vindicaar
+END
+VER 3 000000000000017F "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Délivrance de la corruption;  [@mouseover,exists,mod:ctrl] Délivrance de la corruption; [@mouseover,exists,mod:shift] Délivrance de la corruption
+END
+VER 3 000000000000015F "Pull" "237280"
+/sf pull
+END
+VER 3 0000000000000184 "Reload" "132096"
+/sf rl
+END
+VER 3 000000000000013C "zHarmfull" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopattack
+/cast [harm, nodead] [@targettarget, harm, nodead] [@mouseover, harm, nodead] [@pettarget, nodead] HarmfulSpell
+END
+VER 3 000000000000013D "zHelpfull" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopattack
+/cast [@mouseover, help, nodead] [help, nodead] [@targettarget, help, nodead] [@player] HelpfulSpell
+END
